@@ -46,7 +46,7 @@ Male to male cable
 
 USB A to USB B cable
 
-# Authorises:
+# Authorities:
 
 Buse Berren Ünal
 
