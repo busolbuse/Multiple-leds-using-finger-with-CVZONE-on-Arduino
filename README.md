@@ -14,7 +14,7 @@ Firmata is a protocol developed for computer software to communicate with microc
 
 # <i> Python and Arduino Communication by pyFirmata </i>
 
-We transferred the codes in the Standard Firmata.ino file from the Firmata library, which we installed in the Arduino IDE, to the Arduino card and established communication with our Python code by establishing a bridge.
+We transferred the codes in the <b><i>Standard Firmata.ino</i></b> file from the Firmata library, which we installed in the Arduino IDE, to the Arduino card and established communication with our Python code by establishing a bridge.
 
 
 # <i> How many fingers are on the screen? </i>
