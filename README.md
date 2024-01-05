@@ -1,4 +1,9 @@
 # Multiple-leds-using-finger-with-CVZONE-on-Arduino
+
+# Purpose
+
+Our aim in this project is to detect the behavior of fingers using Opencv and integrate it with the pyfirmata library and run it in the physical environment. This will be the basis of human-robot interaction in future projects. Our general goal is to understand the transfer of computer vision to the field of robotics.
+
 CVzone is a computer vision package that makes us easy to run like face detection, hand tracking, pose estimation, etc., and also image processing and other AI functions. At the core, it uses OpenCV and MediaPipe libraries.
 
 <img src="https://github.com/busolbuse/Multiple-leds-using-finger-with-CVZONE-on-Arduino/assets/147637348/1a43a3b7-4853-4d07-8b66-862930ea9a8c" alt="images"  width="500" height="300">
@@ -14,7 +19,7 @@ We transferred the codes in the Standard Firmata.ino file from the Firmata libra
 
 # How many fingers are on the screen?
 
-<img src="https://github.com/busolbuse/Multiple-leds-using-finger-with-CVZONE-on-Arduino/assets/147637348/3f178cc4-9dd2-44e4-9b7b-e7c18158b268" alt="images"  width="500" height="300">
+<img src="https://github.com/busolbuse/Multiple-leds-using-finger-with-CVZONE-on-Arduino/assets/147637348/3f178cc4-9dd2-44e4-9b7b-e7c18158b268" alt="images"  width="500" height="350">
 
 In our bridged python code, firstly the fingers were detected, the joints were determined, they were transferred to the matrix plane and the data in the matrix was examined. After this stage, the number of fingers shown on the screen is detected according to the matrix coordinate values. This detected value is written to the screen in the frame.exe file running as <b><i>" Finger count: "</i></b>.
 
