@@ -11,7 +11,18 @@ Firmata is a protocol developed for computer software to communicate with microc
 
 <img src="https://github.com/busolbuse/Multiple-leds-using-finger-with-CVZONE-on-Arduino/assets/147637348/e08c1dc9-65e6-4140-9db6-83117c3176e7" alt="images" align="left" width="250" height="200">
 
+
+
+
+
 We transferred the codes in the Standard Firmata.ino file from the Firmata library, which we installed in the Arduino IDE, to the Arduino card and established communication with our Python code by establishing a bridge.
+
+
+
+
+
+
+
 
 # How many fingers are on the screen?
 
